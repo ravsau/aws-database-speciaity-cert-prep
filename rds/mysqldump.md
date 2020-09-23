@@ -1,0 +1,2 @@
+- The mysqldump client utility performs logical backups, producing a set of SQL statements that can be executed to reproduce the original database object definitions and table data. It dumps one or more MySQL databases for backup or transfer to another SQL server. The mysqldump command can also generate output in CSV, other delimited text, or XML format.
+  - https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
