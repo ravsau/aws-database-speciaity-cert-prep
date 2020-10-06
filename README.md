@@ -7,6 +7,7 @@
 - Domain 4: Monitoring and Troubleshooting 18%
 - Domain 5: Database Security 18%
 
+---
 
 - Domain 1: Workload-Specific Database Design
     - 1.1 Select appropriate database services for specific types of data and workloads
