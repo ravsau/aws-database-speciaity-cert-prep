@@ -8,6 +8,10 @@
   - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Migrating.html
 - You can also create a Aurora PostgreSQL Cluster using RDS Postgres snapshot. 
 
+- Read Replica uses Async Replication 
+- Multi-AZ setup uses Synchronous replication
+
+
 
 
 ## Migration from On-prem to AWS Aurora: 
