@@ -1,0 +1,3 @@
+- you can stop your Amazon RDS DB instance temporarily to save money. 
+    - While your DB instance is stopped, you are charged for provisioned storage (including Provisioned IOPS) and backup storage (including manual snapshots and automated backups within your specified retention window), but not for DB instance hours. 
+- You can purchase Reserved Instances for RDS to save money
