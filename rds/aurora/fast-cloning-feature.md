@@ -21,12 +21,12 @@ You can use cloning in a variety of use cases, especially where you don't want t
 
 ### How to do it Across Accounts ? 
 - You can now share your Amazon Aurora DB clusters with other AWS accounts for quick and efficient database cloning.
-
-Before Cloning
+---
+### Before Cloning
 Data in a source cluster volume is stored in pages. In the following diagram, the source cluster volume has four pages.
 ![image](https://user-images.githubusercontent.com/22568316/95152302-c47e6180-075a-11eb-82c5-cfddc36845ee.png)
 
 
-After Cloning
+### After Cloning
 As shown in the following diagram, there are no changes in the source data after cloning. Both the source cluster volume and the clone point to the same four pages. None of the pages has been physically copied, so no additional storage is required.
 ![image](https://user-images.githubusercontent.com/22568316/95152323-cea06000-075a-11eb-915a-8a0b5c487e2c.png)
