@@ -1,3 +1,4 @@
+https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/Strategies.html#Strategies.WriteThrough
 ## Caching Strategies
 
 In the following topic, you can find strategies for populating and maintaining your cache.
