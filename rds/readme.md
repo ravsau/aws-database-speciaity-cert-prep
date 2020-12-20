@@ -12,6 +12,12 @@
 - Multi-AZ setup uses Synchronous replication
 
 
+## RDS Storage Autoscaling
+- RDS Storage Auto Scaling automatically scales storage capacity in response to growing database workloads, with zero downtime.
+
+    Previously, you had to manually provision storage capacity based on anticipated application demands. Under-provisioning could result in application downtime, and over-provisioning could result in underutilized resources and higher costs. With RDS Storage Auto Scaling, you simply set your desired maximum storage limit, and Auto Scaling takes care of the rest.
+
+
 
 
 ## Migration from On-prem to AWS Aurora: 
