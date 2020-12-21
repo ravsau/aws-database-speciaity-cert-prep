@@ -24,3 +24,10 @@
 - mysql dump is slow. You can use a Percona backup software --> Save files to S3 --> Import files to create an Aurora Cluster. This method is lot faster than mysqldump. 
 - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Migrating.ExtMySQL.html
 
+
+
+
+## Other things to note: 
+- When you restore a DB instance, the default security group is associated with the restored instance by default.
+  - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_RestoreFromSnapshot.html
+
