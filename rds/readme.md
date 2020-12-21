@@ -30,4 +30,5 @@
 ## Other things to note: 
 - When you restore a DB instance, the default security group is associated with the restored instance by default.
   - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_RestoreFromSnapshot.html
-
+- To use Performance Insights, enable it on your DB instance. If needed, you can disable it later. Enabling and disabling Performance Insights doesn't cause downtime, a reboot, or a failover.
+  - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.Enabling.html
