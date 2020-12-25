@@ -3,6 +3,7 @@ Whitepaper: https://d1.awsstatic.com/whitepapers/getting-started-with-amazon-doc
 
 # Document DB Architecture
 
+![image](https://user-images.githubusercontent.com/22568316/103124062-7475b380-4654-11eb-8ffe-bebad33fd3d2.png)
 
 #### Cluster:
  A cluster consists of one or more instances that provide the compute,
