@@ -1,6 +1,15 @@
 https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html
 ****  
 
+
+DynamoDB supports two types of secondary indexes:
++ **[Global secondary index](GSI.html) — **An index with a partition key and a sort key that can be different from those on the base table\. A global secondary index is considered "global" because queries on the index can span all of the data in the base table, across all partitions\. A global secondary index is stored in its own partition space away from the base table and scales separately from the base table\.
++ **[Local secondary index](LSI.html) — **An index that has the same partition key as the base table, but a different sort key\. A local secondary index is "local" in the sense that every partition of a local secondary index is scoped to a base table partition that has the same partition key value\.
+
+You should consider your application's requirements when you determine which type of index to use\. The following table shows the main differences between a global secondary index and a local secondary index\.
+
+
+For maximum query flexibility, you can create up to 20 global secondary indexes \(default quota\) and up to 5 local secondary indexes per table\. 
 | Characteristic | Global Secondary Index | Local Secondary Index | 
 | --- | --- | --- | 
 | Key Schema | The primary key of a global secondary index can be either simple \(partition key\) or composite \(partition key and sort key\)\. | The primary key of a local secondary index must be composite \(partition key and sort key\)\. | 
