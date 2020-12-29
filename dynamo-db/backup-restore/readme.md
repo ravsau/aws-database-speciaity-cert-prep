@@ -20,3 +20,9 @@ You can only restore the entire table data to a new table from a backup. You can
 
 
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/backuprestore_HowItWorks.html
+
+----
+
+- You can restore a DynamoDB table to another Region
+  - https://aws.amazon.com/blogs/database/restore-amazon-dynamodb-backups-to-different-aws-regions-and-with-custom-table-settings/
+  
